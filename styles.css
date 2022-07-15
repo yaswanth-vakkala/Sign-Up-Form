@@ -67,5 +67,17 @@ label {
 input{
     border-radius: 5px;
     padding: 5px 15px;
+    border: 3px solid violet;
 }
 
+input:valid{
+    border-color: violet;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    outline: none !important;
+}
