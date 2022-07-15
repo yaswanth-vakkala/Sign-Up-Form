@@ -7,7 +7,7 @@ body{
     background-image: url("./images/background4.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;   
-    color: white;
+    color: #ffffff;
 }
 
 .layout{
@@ -20,6 +20,8 @@ body{
 
 .info{
     text-align: center;
+    margin-top: 36px;
+    font-family: cursive;
 }
 
 .form-content{
@@ -45,4 +47,14 @@ body{
 
 .form-action{
     text-align: center;
+    margin-bottom: 36px;
+}
+
+.form-action p{
+    margin-top: 16px;
+}
+
+.form-action button{
+    padding: 5px;
+    
 }
