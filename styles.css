@@ -51,10 +51,13 @@ body{
 }
 
 .form-action p{
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .form-action button{
-    padding: 5px;
+    padding: 10px 32px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
     
 }
